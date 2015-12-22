@@ -1,0 +1,35 @@
+<html>
+<head>
+	<link href="./css/panel-style.css" type="text/css" rel="stylesheet">
+</head>
+<body class="coco-body coco-font">
+	<div id="appTitle" class="rounded-borders bold text-150">
+		<img src="./logo/coconotes-logo-32.png" id="coco-logo"> <strong>Coconotes</strong>
+		<span id="progress" class="text-050 regular"></span>
+	</div>
+
+	<div id="formContainer" class="rounded-borders">
+		<div>
+			<img src="./img/pen_orange.png" class="icon-m alignTop"/> <input type="text" id="noteTitle" class="formElement coco-font" /> 
+		</div>
+		<div>
+			 <img src="./img/desc_orange.png" class="icon-m alignTop" /> 
+			 <textarea rows="3" id="noteDesc" class="formElement coco-font"></textarea> 
+		</div>
+		<div>
+			<img src="./img/tags_orange.png" class="icon-m alignTop" /> <input type="text" id="noteTags" class="formElement coco-font" /> 
+		</div>
+		<div>
+			<input type="button" id="go" value="GO" class="coco-font bold text-150" />
+		</div>
+	</div>
+
+		<input type="hidden" id="noteUrl" /> 
+		<input type="hidden" id="previousPanelOpeningUrl" /> 
+		<input type="hidden" id="urlScreenshot" />
+		<input type="hidden" id="urlContent" /> 
+		<input type="hidden" id="serverUrl" /> 
+		<input type="hidden" id="username" /> 
+		<input type="hidden" id="password" /> 
+</body>
+</html>

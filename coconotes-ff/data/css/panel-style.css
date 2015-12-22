@@ -1,0 +1,89 @@
+/*** 
+Generic classes 
+***/
+.coco-body {
+	background: #ff9c00;
+}
+.coco-font {
+	font-family: "Anonymous Pro", "Courier New", Courier, "Lucida Console", Monaco, monospace;
+	font-size: 11pt;
+	color: #666;
+}
+.regular {
+	font-weight: normal;
+}
+.bold {
+	font-weight: bold;
+}
+.text-050 {
+	font-size: 0.5em;
+}
+.text-080 {
+	font-size: 0.8em;
+}
+.text-100 {
+	font-size: 1em;
+}
+.text-150 {
+	font-size: 1.5em;
+}
+.rounded-borders {
+	moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.alignTop {
+	vertical-align: top;
+}
+.floatLeft {
+	float: left;
+}
+.floatRight {
+	float: right;
+}
+.icon-m {
+	width: 32px;
+	height: 32px;
+}
+/*** 
+Form classes
+***/
+.formElement {
+	width: 420px;
+	margin: 0 0 5px 0;
+	padding: 5px;
+}
+/*** 
+Id-specific classes 
+***/
+#coco-logo {
+	vertical-align: bottom;
+}
+#appTitle {
+	width: 471px;
+	margin: 0 auto 10px auto;
+	padding: 5px;
+	background: white;
+	font-size: 1.5em;
+	border: 2px solid #666;
+}
+#appTitle img {
+	margin: 0 5px 0 0;
+}
+#formContainer {
+	width: 471px;
+	margin: 0 auto 0 auto;
+	padding: 5px;
+	background: white;
+	border: 2px solid #666;
+}
+#noteDesc {
+	height: 40%;
+}
+#urlCopy {
+	height: 32px;
+}
+#go {
+	width: 50px; 
+	height: 50px; 
+	margin: 0 0 0 410px;
+}

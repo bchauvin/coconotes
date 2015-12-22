@@ -1,0 +1,16 @@
+{
+  "title": "coconotes",
+  "name": "coconotes-ff",
+  "version": "0.0.1",
+  "description": "Firefox extension to take screenshots of web pages and send them to the coconotes note-taking application.",
+  "main": "index.js",
+  "author": "Bertrand Chauvin",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "CeCILL-C 1.0 ( http://www.cecill.info )",
+  "keywords": [
+    "jetpack"
+  ]
+}

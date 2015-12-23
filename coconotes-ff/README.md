@@ -1,4 +1,4 @@
-# Coconotes
+# Coconotes Firefox Extension
 ## Licensing Information
 Copyright Bertrand Chauvin (2015)
 

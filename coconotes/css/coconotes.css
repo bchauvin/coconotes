@@ -1,0 +1,54 @@
+/***
+App classes
+***/
+.coco-body {
+	background: #ff9c00;
+}
+.coco-font {
+	font-family: "Anonymous Pro", "Ubuntu Mono", "Courier New", Courier, "Lucida Console", Monaco, monospace;
+	color: #666;
+}
+/***
+Generic classes
+***/
+.regular {
+	font-weight: normal;
+}
+.bold {
+	font-weight: bold;
+}
+.text-050 {
+	font-size: 0.5em;
+}
+.text-080 {
+	font-size: 0.8em;
+}
+.text-100 {
+	font-size: 1em;
+}
+.text-150 {
+	font-size: 1.5em;
+}
+.rounded-borders {
+	moz-border-radius: 5px;
+	border-radius: 5px;
+}
+/***
+Id-specific classes
+***/
+#coco-menu img {
+	vertical-align: middle;
+}
+#coco-create img {
+	width: 32px;
+	height: 32px;
+}
+#coco-menu {
+	margin: 0px -10px;
+}
+#coco-notes {
+	margin: 0px -20px;
+}
+#coco-notes-content {
+	padding-bottom: 20px;
+}

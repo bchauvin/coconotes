@@ -1,0 +1,83 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link href="css/coconotes.css" type="text/css" rel="stylesheet">
+	<link href="lib/semantic/semantic.min.css" type="text/css" rel="stylesheet">
+</head>
+
+<body class="coco-body coco-font">
+	<div class="ui centered grid container">
+		<div id="coco-menu" class="ui six wide column stretched">
+			<div class="ui inverted segment">
+				<div class="ui inverted relaxed divided list">
+					<div class="item">
+						<div class="content">
+							<img src="logo/coconotes-logo-orange-32.png" id="coco-logo">
+							Coconotes
+						</div>
+					</div>
+					<div class="item">
+						<div class="content">
+							<a href="#">All notes</a>
+						</div>
+					</div>
+					<div class="item">
+						<div class="content">
+							Tag 1
+						</div>
+					</div>
+					<div class="item">
+						<div class="content">
+							Tag 2
+						</div>
+					</div>
+					<div class="item">
+						<div class="content">
+							Deleted
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="coco-notes" class="ui ten wide column stretched">
+			<div id="coco-notes-content" class="ui inverted segment">
+				<button id="coco-cancel" class="ui icon button right floated">
+					<i class="remove icon"></i>
+				</button>
+				<div class="ui header left floated">
+					New Note
+				</div>
+				<form class="ui form">
+					<div class="field">
+						<input name="coco-note-title" placeholder="Title" type="text">
+					</div>
+					<div class="field">
+						<textarea rows="6" placeholder="Description"></textarea>
+					</div>
+					<div class="ui fluid multiple search dropdown">
+						<input name="tags" type="hidden">
+						<i class="dropdown icon"></i>
+						<div class="default text">Tags</div>
+						<div class="menu">
+							<div class="item" data-value="1">Ze First Tag</div>
+							<div class="item" data-value="0">Another Tag</div>
+						</div>
+					</div>
+
+					<button id="coco-confirm" class="ui right floated primary button">
+						CONFIRM
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/semantic/semantic.min.js"></script>
+	<script type="text/javascript" src="lib/pouchdb/pouchdb-5.1.0.min.js"></script>
+	<script type="text/javascript" src="js/coconotes.js"></script>
+	<script type="text/javascript" src="js/coconotes-new.js"></script>
+</body>
+
+</html>

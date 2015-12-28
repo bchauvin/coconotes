@@ -1,0 +1,56 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link href="css/coconotes.css" type="text/css" rel="stylesheet">
+	<link href="lib/semantic/semantic.min.css" type="text/css" rel="stylesheet">
+</head>
+
+<body class="coco-body coco-font">
+	<div class="ui equal width grid container">
+		<div id="coco-menu" class="ui four wide column">
+			<img src="logo/coconotes-logo-orange-32.png" id="coco-logo">
+			<strong>Coconotes</strong>
+			<ul>
+				<li>All notes</li>
+				<li>Tag 1</li>
+				<li>Tag 2</li>
+				<li>Trash</li>
+			</ul>
+		</div>
+		<div id="coco-notes" class="ui twelve wide column">
+			<div class="ui items">
+				<div class="item">
+					<div class="ui tiny image">
+						<img src="logo/coconotes-logo-128.png">
+					</div>
+					<div class="content">
+						<a class="header">Header</a>
+						<div class="meta">
+							<span>Description</span>
+						</div>
+						<div class="description">
+							<p></p>
+						</div>
+						<div class="extra">
+							Additional Details
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="new.html">
+				<button id="coco-new" class="ui right floated primary button">
+					NEW
+				</button>
+			</a>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="lib/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/semantic/semantic.min.js"></script>
+	<script type="text/javascript" src="lib/pouchdb-5.1.0.min.js"></script>
+	<script type="text/javascript" src="js/coconotes.js"></script>
+	<script type="text/javascript" src="js/coconotes-index.js"></script>
+</body>
+
+</html>
